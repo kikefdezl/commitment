@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# Every 6 hours, there's a 50% chance a commit is done
+# Every day at 12:00, there's a 50% chance a commit is done
 # In my crontab:
-# 0 */6 * * * cd ~/commitment && ./commit.sh
+# 0 12 * * * cd ~/commitment && ./commit.sh
 
 
 git pull
